@@ -1,10 +1,10 @@
 fun main() {
     val valores= listOf(3,5,32,6,8,28,53,10,4,100,56,87,43)
-    println(si(valores) { a -> par(a) })
+    println(si(valores) { a -> mayor(a) })
 }
 
 
-fun par(valor:Int): Boolean {
+fun mayor(valor:Int): Boolean {
     return valor>=50
 }
 
